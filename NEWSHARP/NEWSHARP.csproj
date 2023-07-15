@@ -52,10 +52,37 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2DataMerge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2DataMerge.Designer.cs">
+      <DependentUpon>Form2DataMerge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2db.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2db.Designer.cs">
+      <DependentUpon>Form2db.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2Export.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2Export.Designer.cs">
+      <DependentUpon>Form2Export.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2DataMerge.resx">
+      <DependentUpon>Form2DataMerge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2db.resx">
+      <DependentUpon>Form2db.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2Export.resx">
+      <DependentUpon>Form2Export.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -82,6 +109,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\PPPPPPPPPP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lavenderbg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

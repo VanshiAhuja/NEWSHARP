@@ -10,18 +10,28 @@ using System.Windows.Forms;
 
 namespace NEWSHARP
 {
-    public partial class START : Form
+    public partial class Form2db : Form
     {
-        public START()
+        public Form2db()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void BtnDbExportwithiID_Click(object sender, EventArgs e)
+        {
             this.Hide();
-            Form2DataMerge star = new Form2DataMerge();
-            star.ShowDialog();
+            Form2Export ed = new Form2Export();
+            ed.ShowDialog();
+        }
+
+        private void BtnDbClearData_MouseHover(object sender, EventArgs e)
+        {
+            BtnDbClearData.BackColor = Color.DarkBlue;
         }
     }
 }

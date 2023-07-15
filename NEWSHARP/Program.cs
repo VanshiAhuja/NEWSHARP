@@ -16,7 +16,7 @@ namespace NEWSHARP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new COM());
+            Application.Run(new START());
         }
     }
 }

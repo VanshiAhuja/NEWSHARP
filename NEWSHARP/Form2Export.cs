@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NEWSHARP
 {
-    public partial class START : Form
+    public partial class Form2Export : Form
     {
-        public START()
+        public Form2Export()
         {
             InitializeComponent();
         }
@@ -20,8 +20,8 @@ namespace NEWSHARP
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2DataMerge star = new Form2DataMerge();
-            star.ShowDialog();
+            Form2db db = new Form2db();
+            db.ShowDialog();
         }
     }
 }
