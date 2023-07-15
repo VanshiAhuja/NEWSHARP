@@ -114,33 +114,45 @@ namespace NEWSHARP
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.DarkViolet;
+            this.button2.FlatAppearance.BorderSize = 2;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(1204, 408);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(140, 58);
             this.button2.TabIndex = 7;
             this.button2.Text = "Save Text";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // BtnDbLoadDataTxtFile
             // 
-            this.BtnDbLoadDataTxtFile.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDbLoadDataTxtFile.BackColor = System.Drawing.Color.Transparent;
+            this.BtnDbLoadDataTxtFile.FlatAppearance.BorderColor = System.Drawing.Color.DarkViolet;
+            this.BtnDbLoadDataTxtFile.FlatAppearance.BorderSize = 2;
+            this.BtnDbLoadDataTxtFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnDbLoadDataTxtFile.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnDbLoadDataTxtFile.Location = new System.Drawing.Point(1043, 482);
             this.BtnDbLoadDataTxtFile.Name = "BtnDbLoadDataTxtFile";
             this.BtnDbLoadDataTxtFile.Size = new System.Drawing.Size(301, 55);
             this.BtnDbLoadDataTxtFile.TabIndex = 8;
             this.BtnDbLoadDataTxtFile.Text = "Load Data";
-            this.BtnDbLoadDataTxtFile.UseVisualStyleBackColor = true;
+            this.BtnDbLoadDataTxtFile.UseVisualStyleBackColor = false;
             // 
             // BtnDbExportwithiID
             // 
-            this.BtnDbExportwithiID.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDbExportwithiID.BackColor = System.Drawing.Color.Transparent;
+            this.BtnDbExportwithiID.FlatAppearance.BorderColor = System.Drawing.Color.DarkViolet;
+            this.BtnDbExportwithiID.FlatAppearance.BorderSize = 2;
+            this.BtnDbExportwithiID.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnDbExportwithiID.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnDbExportwithiID.Location = new System.Drawing.Point(466, 638);
             this.BtnDbExportwithiID.Name = "BtnDbExportwithiID";
             this.BtnDbExportwithiID.Size = new System.Drawing.Size(221, 29);
             this.BtnDbExportwithiID.TabIndex = 9;
             this.BtnDbExportwithiID.Text = "Export Data ";
-            this.BtnDbExportwithiID.UseVisualStyleBackColor = true;
+            this.BtnDbExportwithiID.UseVisualStyleBackColor = false;
             this.BtnDbExportwithiID.Click += new System.EventHandler(this.BtnDbExportwithiID_Click);
             // 
             // Form2db
